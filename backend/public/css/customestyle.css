@@ -1,0 +1,52 @@
+.SumoSelect {
+    width: 100%;
+}
+
+/* 
+ * Element loader
+ */
+
+.page-loader-wrapper.elem-loader {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 8;
+}
+
+.inline-loader-wrapper .page-loader-wrapper {
+    background-color: transparent;
+    width: auto;
+    left: auto;
+    right: 10px;
+}
+
+/* 
+ * Ticket booking custom styles
+ */
+
+.book-title {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border-bottom: 1px dashed #333;
+}
+
+.search-trip-single .col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid #eaeaea;
+}
+
+.search-trip-single .col h6 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.search-trip-single .booking-area {
+    background-color: #cedddf;
+}
+
+.booking-area .loader {
+    padding: 50px 0;
+    text-align: center;
+}
